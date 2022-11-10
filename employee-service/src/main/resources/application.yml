@@ -1,0 +1,12 @@
+server:
+     port: 8222
+spring:
+    datasource:
+     username: sk
+     password: welcome
+     url: 'jdbc:h2:mem:orders_db;DB_CLOSE_ON_EXIT=FALSE'
+    jpa:
+      show-sql: true
+      hibernate:
+       ddl-auto: "create"
+spring.mvc.hiddenmethod.filter.enabled: true
